@@ -4,5 +4,5 @@ RUN pecl install parallel
 COPY config/php.ini /usr/local/etc/php/
 COPY . /app
 WORKDIR /app
-CMD [ "php", "./app/hello.php" ]
+CMD [ "php", "./app/parallel.php" ]
 

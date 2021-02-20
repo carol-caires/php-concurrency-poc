@@ -1,5 +1,5 @@
 build:
-	docker build -t php-parallel .
+	docker build -t php-parallel --quiet .
 
-run: build
+run:
 	docker run php-parallel
